@@ -1,0 +1,12 @@
+# Case materials — copyright Ivey Publishing, not ours to redistribute
+data/
+brief/
+*.csv
+
+# macOS / R / editor noise
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+Thumbs.db
