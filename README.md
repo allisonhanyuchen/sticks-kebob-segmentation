@@ -28,33 +28,56 @@ Sticks Kebob Shop (founded 2001, Charlottesville VA) sits in the fast-growing et
 
 **Cluster count.** An elbow plot on the base variables gave **six segments**.
 
-## What the analysis found
+![Elbow chart](plot/01_Elbow%20chart.png)
 
-**Segment 3 — primary target.** The heaviest restaurant-lunch buyers in the sample (3.97 on restaurant lunches vs 2.51 on home-made, the highest and lowest in the set). Their stated priorities line up almost exactly with Sticks' value proposition: convenience, value for money, healthy options, friendly staff.
+## The segment profile
 
-**Segment 5 — secondary target.** Cost- and health-conscious, frequently brings lunch from home. That is a *conversion* opportunity rather than a share-of-wallet one: the pitch is a made-fresh meal that competes with what they would have packed.
+All six segments across all sixteen base variables. Lower scores mean *more* important, since the survey scales run from 1 = strongly agree / very important.
 
-**Three independent checks confirmed the pick:**
+![Segment profile](plot/02_Segments.png)
 
-- Segments 3 and 5 hold the highest concentration of Sticks' *existing* customers, so the model agrees with revealed behaviour, not just stated preference.
-- Both segments over-index on singles from their mid-20s to mid-40s, matching the base the founders had observed anecdotally.
-- Segment 5 has the highest share of households with children in soccer, giving the "active family" intuition an evidence base.
+![Value metrics by segment](plot/09_Value%20metrics%20by%20segments.png)
 
-**Demographic profile of the targets:** concentrated in the under-$50K and $50K–$100K income brackets. High-income households are *under*-represented among targets (22 customers above $100K vs 31 among non-targets), which says Sticks' natural appeal is value-driven rather than premium — a useful constraint on both pricing and site selection.
+**Segment 3 — primary target.** The heaviest restaurant-lunch buyers in the sample (3.97 on restaurant lunches against 2.51 on home-made, the highest and lowest in the set). Their stated priorities line up almost exactly with Sticks' value proposition: convenience, value for money, healthy options, friendly staff.
 
-**Behavioural profile:** targets buy restaurant lunch 2.8×/week vs 2.4 for non-targets, eat at home far less (2.7 vs 4.6), and rely less on workplace cafeterias (1.2 vs 1.7). They are already out of the house at lunch; the question is only where they go.
+**Segment 5 — secondary target.** Cost- and health-conscious, and the segment most likely to bring lunch from home. That makes it a *conversion* opportunity rather than a share-of-wallet one: the pitch is a fresh-made meal competing with what they would have packed.
+
+## Why these two
+
+Segments 3 and 5 are the only ones that combine **size** with **proven affinity**. At 59 and 60 respondents they are among the largest segments, and 59% and 63% of their members are already Sticks customers — the highest concentrations in the study. Segment 1 is slightly larger at 65 respondents, but only 38% of it buys from Sticks today.
+
+![Existing customers by segment](plot/03_Percentage%20of%20existing%20customer%20by%20segments.png)
+
+Two further checks confirmed the pick against what the founders already believed:
+
+![Professions by segment](plot/06_Professions%20by%20segments.png)
+
+Segments 3 and 5 hold the highest concentration of business professionals, matching the weekday-lunch base Sticks was built around. Yet those customers buy a workplace-area lunch only about once a week, so the occasion is under-served rather than saturated.
+
+![Soccer families by segment](plot/05_Soccer%20moms%20by%20segments.png)
+
+Segment 5 has the highest share of households with children in soccer, giving the founders' "active family" intuition an evidence base rather than an anecdote.
+
+## What the targets look like
+
+![Income by segment](plot/07_Income%20by%20segments.png)
+
+Target customers concentrate in the under-$50K and $50K–$100K brackets. High-income households are *under*-represented among them, which says Sticks' natural appeal is value-driven rather than premium — a real constraint on both pricing and site selection.
+
+![Lunch behaviour, targets vs rest](plot/08_Lunch%20behaviour%20by%20segments.png)
+
+Behaviourally, targets buy restaurant lunch 2.8 times a week against 2.4 for everyone else, eat at home far less (2.7 vs 4.6), and rely less on workplace cafeterias (1.2 vs 1.7). They are already out at lunch. The only question is where they go.
 
 ## The recommendation
 
 Position Sticks as **the default lunch for busy professionals who want to eat healthily**, and weight site selection toward locations dense in Segment 3 and Segment 5 households.
 
-The size of the opening: target customers currently buy a workplace-area lunch only about once a week. The occasion is under-served rather than saturated.
-
 ## Repository contents
 
 ```
 ├── code/    Sticks Segments - Hanyu.r      # clustering and segment profiling
-├── plot/    Tableau workbooks (.twb/.twbx) # segment profile visualisations
+├── plot/    01–09 *.png                    # segment profile and descriptor charts
+│            *.twb / *.twbx                 # Tableau workbooks behind the charts
 ├── report/  final deck                     # full analysis and recommendation
 └── README.md
 ```

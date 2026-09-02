@@ -3,6 +3,9 @@ data/
 brief/
 *.csv
 
+# Office lock/owner files (leak the editor's username)
+~$*
+
 # macOS / R / editor noise
 .DS_Store
 .Rhistory
