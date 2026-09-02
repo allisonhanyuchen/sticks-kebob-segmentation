@@ -52,7 +52,7 @@ Two further checks confirmed the pick against what the founders already believed
 
 ![Professions by segment](plot/06_Professions%20by%20segments.png)
 
-Segments 3 and 5 hold the highest concentration of business professionals, matching the weekday-lunch base Sticks was built around. Yet those customers buy a workplace-area lunch only about once a week, so the occasion is under-served rather than saturated.
+Segments 3 and 5 hold the most business professionals, 32 and 34 against a 21 average across segments. They are also the least tied to a workplace cafeteria, buying lunch at work barely once a week where Segment 6 does it 4.6 times. The professionals whose priorities match Sticks are precisely the ones already leaving the building at lunchtime.
 
 ![Soccer families by segment](plot/05_Soccer%20moms%20by%20segments.png)
 
